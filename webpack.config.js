@@ -76,6 +76,6 @@ module.exports = {
     }),
     new PrettierPlugin({
         failSilently: true
-    }),
-  ]
+    })
+  ],
 };
