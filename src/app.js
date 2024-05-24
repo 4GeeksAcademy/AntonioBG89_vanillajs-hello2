@@ -20,7 +20,7 @@ window.onload = function() {
   ];
   const getRandomElement = listElement => {
     let element = "";
-    element = listElement[Math.floor(Math.random() * listElement.lenght)];
+    element = listElement[Math.floor(Math.random() * listElement.length)];
     return element;
   };
   console.log(
